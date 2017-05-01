@@ -1,5 +1,5 @@
-#! /usr/bin/env Rscript
-
+#' Choose my shirts
+#'
 #' Choose which shirt I will wear each weekday
 #'
 #' Raw shirt patterns are found in the directory given by
@@ -18,10 +18,13 @@
 #' @param output file path for output files
 #'
 #' @return character vector of shirt order filenames
+#'
+#' @export
 shuffleShirts <- function(rawShirts =
                               system.file("rawShirts",
                                           package = "shirtshufflr"),
-                          output = file.path(tempdir(), "shirtOrder")) {
+                          output = file.path(tempdir(),
+                                             "shuffledShirts")) {
     
     rawShirts <- list.files(
         path = rawShirts,
