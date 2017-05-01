@@ -1,4 +1,4 @@
-# shirtshuffler
+# shirtshufflr
 
 R package to choose which shirt I should wear on each work day.
 
