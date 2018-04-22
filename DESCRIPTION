@@ -1,6 +1,6 @@
 Package: shirtshufflr
 Title: Shuffle My Shirts
-Version: 2017-05-01
+Version: 2018-04-23
 Authors@R: person("Ashley", "Hinton", email = "ashley@canadia.co.nz", role = c("aut", "cre"))
 Description: This package samples images of five of my shirt patterns and
     puts them in order so I know which shirt to wear each weekday.
